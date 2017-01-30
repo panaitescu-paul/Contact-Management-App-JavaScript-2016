@@ -1,0 +1,35 @@
+
+<div class="col2">
+	<div class="info-top">
+		<div class="avatar">
+			<img ng-src="{{contactList[selectedItemIndex].img}}" id="myimage" height="150"/>
+		</div>
+		<div class="names">
+			<span>First Name</span>
+			<input type="text" ng-model="contactList[selectedItemIndex].firstName" ng-change="change()" ng-focus="focus()" ng-keypress="validateText(event)" maxlength="20">
+			<span>Last Name</span>
+			<input type="text" ng-model="contactList[selectedItemIndex].lastName" ng-change="change()" ng-focus="focus()" ng-keypress="validateText(event)" maxlength="20">	
+			<image-upload set-image-cb="avatarChange(src)"></image-upload>
+		</div>
+	</div>
+	<div class="info-bot">
+			<span>City</span>
+			<input type="text" ng-model="contactList[selectedItemIndex].city" ng-change="change()" ng-focus="focus()" ng-keypress="validateText(event)" maxlength="20">
+			<span>Country</span>
+			<input type="text" ng-model="contactList[selectedItemIndex].country" ng-change="change()" ng-focus="focus()" ng-keypress="validateText(event)" maxlength="20">
+			<span>Address</span>
+			<input type="text" ng-model="contactList[selectedItemIndex].address" ng-change="change()" ng-focus="focus()" ng-keypress="validateText(event)" maxlength="20">
+			<span>ZIP Code</span>
+			<input type="number" ng-model="contactList[selectedItemIndex].zip" ng-change="change()" ng-focus="focus()" ng-keypress="validateInt(event)">
+			<br>
+			<div class="save-buttons" id="buttons-bot">
+				<input id="btn-delete" type="submit" value="Delete" ng-click="delete()" ng-class="changesMade ? 'disabled' : ''">
+				<input id="btn-save" type="submit" value="Save" ng-click="save()" ng-class="{'disabled': !changesMade, 'alert': alert}"  ng-disabled="!changesMade">
+				<input id="btn-undo" type="submit" value="Undo" ng-click="undo()" ng-class="{'disabled': !changesMade, 'alert': alert}" ng-disabled="!changesMade">
+			</div>
+	</div>
+</div>
+
+
+
+

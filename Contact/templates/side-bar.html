@@ -1,0 +1,20 @@
+<div class="col1">
+	<span class="title">Contacts</span>
+	<ul>
+		<li ng-repeat="contact in contactList" ng-class="contact.selected ? 'selected': ''" ng-click="selectItem(contact)">
+			<span ng-if="contact.firstName">
+				{{contact.firstName + ' '}}
+			</span>
+			<span ng-if="contact.lastName">
+				{{contact.lastName}}
+			</span>
+			<span ng-if="!(contact.firstName || contact.lastName)">
+				{{'Item ' + contactList.indexOf(contact)}}
+			</span>
+		</li>
+	</ul>
+	<span class="btn-plus" ng-click="add()">ADD</span>
+</div>
+
+
+
