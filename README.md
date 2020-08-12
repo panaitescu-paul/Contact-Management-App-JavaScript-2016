@@ -1,4 +1,4 @@
-# Contact List
+# Contact Management App - JavaScript - 2016
 Add, modify, and delete contacts from your list.
 
 ### Features
