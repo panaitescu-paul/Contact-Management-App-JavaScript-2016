@@ -3,13 +3,13 @@
 
 ## Features
 1. Create, Update, and Delete Contacts
-  - Avatar (image selection)
-  - First Name
-  - Last Name
-  - City
-  - Country
-  - Address
-  - ZIP code
+    - Avatar (image selection)
+    - First Name
+    - Last Name
+    - City
+    - Country
+    - Address
+    - ZIP code
 2. Support for Multiple Contacts
 3. Alert Messages
 
