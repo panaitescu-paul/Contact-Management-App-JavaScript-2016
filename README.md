@@ -20,7 +20,7 @@
 - CSS
 
 ## Tools:
-- Sublime text
+- Sublime Text
 
 ## Preview
 
