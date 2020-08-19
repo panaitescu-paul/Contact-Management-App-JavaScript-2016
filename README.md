@@ -1,23 +1,28 @@
 # Contact Management App - JavaScript - 2016
-Add, modify, and delete contacts from your list.
+### Manage your contracts by creating, updating, and deleting contacts from your personal list.
 
-### Features
-1. Add, modify, and delete contacts
-2. Contact description:
-  - Avatar
+## Features
+1. Create, Update, and Delete Contacts
+  - Avatar (image selection)
   - First Name
   - Last Name
   - City
   - Country
   - Address
   - ZIP code
-3. Avatar - select image
-4. Multiple contacts
-5. Alert messages
+2. Support for Multiple Contacts
+3. Alert Messages
 
-### Technologies: 
-1. Angular JS
+## Technologies: 
+- Angular JS
+- JavaScript
+- HTML
+- CSS
 
-### Preview
+## Tools:
+- Sublime text
+
+## Preview
+
 ![alt tag](https://github.com/panaitescu-paul/contact/blob/master/Process/1.png) 
 ![alt tag](https://github.com/panaitescu-paul/contact/blob/master/Process/2.png)
